@@ -1,5 +1,11 @@
+import Counter from './Counter';
+
 function App() {
-  return <div className='App'>Hi! From animated Counter</div>;
+  return (
+    <div>
+      <Counter />
+    </div>
+  );
 }
 
 export default App;
